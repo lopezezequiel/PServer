@@ -36,7 +36,7 @@ Press Ctrl+C to shutdown
 
 **command:**
 ```
-python pserver.py --https --port 9999 --root C:\Users\guest\www**
+python pserver.py --https --port 9999 --root C:\Users\guest\www
 ```
 
 **output:**
