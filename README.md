@@ -15,12 +15,28 @@ optional arguments:
 
 Default port is 3443, default root is the current directory.
 
-### Examples
+### Execution
 
+python interpreter
+```
+python pserver.py
+```
+
+windows
+```
+pserver.exe
+```
+
+linux
+```
+./pserver
+```
+
+### Examples
 
 **command:**
 ```
-python pserver.py
+pserver.exe
 ```
 
 **output:**
@@ -36,7 +52,7 @@ Press Ctrl+C to shutdown
 
 **command:**
 ```
-python pserver.py --https --port 9999 --root C:\Users\guest\www
+pserver.exe --https --port 9999 --root C:\Users\guest\www
 ```
 
 **output:**
