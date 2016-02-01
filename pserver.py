@@ -22,7 +22,7 @@ def stop_handler(signal, frame):
 #parse args
 parser = argparse.ArgumentParser()
 parser.add_argument('--https', action='store_true', help='Init https server')
-parser.add_argument('-p', '--port', help='Init https server', type=int, default=3443)
+parser.add_argument('-p', '--port', help='Set the port', type=int, default=3443)
 parser.add_argument('-r', '--root', help='Set the root directory', default=os.getcwd())
 args = parser.parse_args()
 
