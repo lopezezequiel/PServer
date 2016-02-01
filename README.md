@@ -1,6 +1,5 @@
 # PServer
 Portable HTTP/HTTPS server for static files.
-Do not forget my site: http://lopezezequiel.com
 
 ### Usage
 
@@ -70,3 +69,8 @@ Press Ctrl+C to shutdown
 The pserver is associated with a console to display requests.
 
 The pserverw command is identical to pserver, except that with pserver there is no associated console window.
+
+
+
+
+**Do not forget my site: http://lopezezequiel.com**
