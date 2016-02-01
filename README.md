@@ -17,13 +17,14 @@ Default port is 3443, default root is the current directory.
 
 ### Examples
 
-default port, mode and root:
+__default port, mode and root:__
 
+**command:**
+```
 python pserver.py
-pserver.exe
+```
 
 **output:**
-
 ```
 The server is running now...
     port: 3443
@@ -33,8 +34,11 @@ The server is running now...
 Press Ctrl+C to shutdown
 ```
 ---
+
+**command:**
+```
 python pserver.py --https --port 9999 --root C:\Users\guest\www**
-pserver.exe --https --port 9999 --root C:\Users\guest\www**
+```
 
 **output:**
 ```
