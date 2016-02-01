@@ -17,7 +17,6 @@ Default port is 3443, default root is the current directory.
 
 ### Examples
 
-__default port, mode and root:__
 
 **command:**
 ```
