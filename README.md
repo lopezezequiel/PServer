@@ -1,5 +1,5 @@
 # PServer
-Portable HTTP/HTTPS server for static files
+Portable HTTP/HTTPS server for static files.
 
 ### Usage
 
@@ -15,12 +15,28 @@ optional arguments:
 
 Default port is 3443, default root is the current directory.
 
-### Examples
+### Execution
 
+python interpreter
+```
+python pserver.py
+```
+
+windows
+```
+pserver.exe
+```
+
+linux
+```
+./pserver
+```
+
+### Examples
 
 **command:**
 ```
-python pserver.py
+pserver.exe
 ```
 
 **output:**
@@ -36,7 +52,7 @@ Press Ctrl+C to shutdown
 
 **command:**
 ```
-python pserver.py --https --port 9999 --root C:\Users\guest\www
+pserver.exe --https --port 9999 --root C:\Users\guest\www
 ```
 
 **output:**
@@ -53,3 +69,8 @@ Press Ctrl+C to shutdown
 The pserver is associated with a console to display requests.
 
 The pserverw command is identical to pserver, except that with pserver there is no associated console window.
+
+
+
+
+**Do not forget my site: http://lopezezequiel.com**
